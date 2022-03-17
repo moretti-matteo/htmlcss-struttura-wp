@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1280px;
+    height: auto;
+    margin:auto;
+}
+
+header{
+    background: #e579e6;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    
+}
+
+.sec-1{
+    background: #e1d67a;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.sec-2{
+    height: 400px;
+}
+
+.head-sec-2{
+    height: 50px;
+    background: #abcfe7;
+}
