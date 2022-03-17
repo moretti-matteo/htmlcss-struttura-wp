@@ -25,15 +25,54 @@ main{
 
 .sec-1{
     background: #e1d67a;
-    height: 300px;
+    height: 400px;
     margin-bottom: 20px;
 }
 
 .sec-2{
-    height: 400px;
+    height: 420px;
+    background: #0086ff;
+    margin-bottom:5px;
 }
 
 .head-sec-2{
-    height: 50px;
+    height: 60px;
+    margin:10px auto;
     background: #abcfe7;
+}
+
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+    
+}
+
+.col{
+    background-color:#abcfe7;
+    min-height: 330px;
+}
+
+.col-left,.col-right{
+    float:left;
+    width:15%;
+    max-width: 20%;
+}
+
+.col-center{
+    margin:0 84px;
+    float:left;
+    width: calc(60% - 40px);
+    
+}
+
+.container-float{
+    margin: 15px auto;
+}
+
+footer{
+    background: #8900ff;
+    height: 30px;
+    width: 100%;
 }
