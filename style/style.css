@@ -6,7 +6,6 @@
 
 .container{
     width: 1280px;
-    height: auto;
     margin:auto;
 }
 
@@ -30,14 +29,12 @@ main{
 }
 
 .sec-2{
-    height: 420px;
     background: #0086ff;
-    margin-bottom:5px;
+    margin: auto;
 }
 
 .head-sec-2{
     height: 60px;
-    margin:10px auto;
     background: #abcfe7;
 }
 
@@ -51,28 +48,34 @@ main{
 
 .col{
     background-color:#abcfe7;
-    min-height: 330px;
+    min-height: 300px;
+    margin: 20px auto 20px auto;
+
 }
 
-.col-left,.col-right{
+.col-left{
+    margin-right: 10px;
     float:left;
     width:15%;
-    max-width: 20%;
 }
 
 .col-center{
-    margin:0 84px;
     float:left;
-    width: calc(60% - 40px);
-    
+    width: calc(70% - 20px);
+}
+
+.col-right{
+    float:left;
+    width: 15%;
+    margin-left:10px;
 }
 
 .container-float{
-    margin: 15px auto;
 }
 
 footer{
     background: #8900ff;
     height: 30px;
     width: 100%;
+    margin-top:5px;
 }
